@@ -72,6 +72,21 @@ nyc_airbnb |>
     type = "bar")
 ```
 
+## ggplotly
+
+Don't use this often.
+
+```{r}
+ggp_scatterplot = 
+  nyc_airbnb |> 
+  ggplot(aes(x = lat, y = long, color = price)) +
+  geom_point()
+
+ggplotly(ggp_scatterplot)
+```
+
+
+
 
 
 
