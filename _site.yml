@@ -5,10 +5,16 @@ navbar:
   right:
     - text: "About"
       href: about.html
+    - text: "Plots"
+      href: plots.html
+    - text: "Plotly Plots"
+      href: plotly.html
+    - text: "Dashboard"
+      href: flexboard.html
     - icon: fa-envelope fa-lg
       href: mailto:<rd3227@cumc.columbia.edu>
     - icon: fa-github fa-lg
       href: http://github.com/silverwolf-2077
 output:
   html_document:
-    theme: cerulean
+    theme: cosmo
