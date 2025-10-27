@@ -1,0 +1,29 @@
+---
+title: "Arwen's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Arwen's website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+Do all the stuff I usually do
+
+Like adding text
+
+Example from [P8105](https://p8105.com/making_websites.html). We are making websites today! Learn more about this site [here](about.html).
+
+I also use [google](https://www.google.com/) a ton for data science.
+
+To show you can just use RMD like normal, check out this [plots page](plots.html).
+
+
+
+
+
+
+
+
