@@ -1,0 +1,76 @@
+---
+title: "NOAA 2000 data"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("ny_noaa")
+
+ny_noaa_2000 =
+  ny_noaa |> 
+  mutate(date1 = date) |> 
+  separate(
+    date1, into = c("year", "month", "day"), sep = "-",
+  ) |> 
+  mutate(
+    across(c(year:day), as.integer),
+    across(c(tmax:tmin), as.integer)) |> 
+  mutate(month = factor(month.name[month], levels = month.name)) |> 
+  filter(year %in% c(2000))
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+ny_noaa_2000 |> 
+  mutate(
+    label = str_c("ID: ", id, "\nDate: ", date) 
+  ) |> 
+  plot_ly(
+    x = ~tmin, y = ~tmax, color = ~prcp,
+    text = ~ label,
+    type = "scatter", mode = "markers", alpha = 0.5
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+ny_noaa_2000 |> 
+  plot_ly(
+    x = ~month, y = ~tmax,
+    type = "box", colors = "viridis"
+  )
+```
+
+### Chart C
+
+```{r}
+ny_noaa_2000 |> 
+  group_by(month) |> 
+  summarize(
+    mean_prcp = mean(prcp, na.rm = TRUE)
+  ) |> 
+  plot_ly(
+    x = ~month, y = ~mean_prcp,
+    type = "bar")
+```
+
+
+
