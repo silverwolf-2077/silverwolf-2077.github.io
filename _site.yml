@@ -3,12 +3,8 @@ output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
-      href: about.html
-    - text: "Plots"
-      href: plots.html
-    - text: "Plotly Plots"
-      href: plotly.html
+    - text: "CV"
+      href: cv.html
     - text: "Dashboard"
       href: flexboard.html
     - icon: fa-envelope fa-lg
@@ -17,4 +13,4 @@ navbar:
       href: http://github.com/silverwolf-2077
 output:
   html_document:
-    theme: cosmo
+    theme: journal

@@ -1,0 +1,90 @@
+---
+title: "Ruihan Ding"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: false
+    self_contained: true
+    df_print: paged
+---
+
+<br>
+
+## Education
+
+- **Columbia University, Mailman School of Public Health** — M.S. Biostatistics  
+  *Sept 2025 – Present · New York, NY, USA*
+
+- **Fudan University** — B.S. in Biological Sciences  
+  *Sept 2021 – June 2025 · Shanghai, China*
+
+- **UC Berkeley Extension** — Berkeley Biosciences Study Abroad (BBSA)  
+  *Jan 2023 – Aug 2023 · Berkeley, CA, USA*
+
+**Awards & Scholarships:**   
+  Fundamental Disciplines Scholarship (2023–2024);   
+  Fudan Undergraduate Research Opportunities Program Scholarship (Spring 2024)
+
+<br>
+
+## Work Experience
+
+**Data Analyst Intern — Dizal Pharma · Shanghai, China** *(July 2024 – Aug 2024)*  
+
+- Conducted statistical analyses for CMC and quality management in line with industry regulations.  
+- Developed a DOE framework for process control (formulation optimization, stability, expiry assessment).  
+- Computed Cpk/Ppk in Minitab on stability data; implemented SPC control charts to assess capability and stability.  
+- Performed literature reviews that improved acceptance sampling methodologies and QA practices.
+
+<br>
+
+## Research Experience
+
+**Research Assistant — Fudan University** *(Oct 2023 – June 2025 · Advisor: Prof. Boxun Lu)*  
+
+- Explored molecular mechanisms/therapeutics for polyQ and polyG neurodegenerative diseases.  
+- Quantified proteins via BCA; profiled expression via Western Blot and ImageJ; performed fluorescence microscopy.  
+- Investigated protein distribution/colocalization with immunofluorescence.  
+- Measured mRNA levels via RT-qPCR; validated via DNA electrophoresis.  
+- Analyzed high-throughput screening data in R.  
+- Led an independent project on SCA1 mechanism and potential therapies.
+
+**Research Assistant — University of California, Berkeley** *(June 2023 – Aug 2023 · Advisor: Prof. Sheng Luan)*  
+
+- Studied Arabidopsis signaling: effects of K nutrition on TORC and the CBL-CIPK network.  
+- Prepared sterile media; cultivated seedlings to ensure experimental consistency.  
+- Applied qPCR to assess gene expression under varying K levels.  
+- Analyzed growth outcomes with one-way ANOVA and Tukey tests for height/biomass differences.
+
+<br>
+
+## Selected Project
+
+**Screening & Validation of Compounds Modulating Ubiquitination to Rescue SCA1 Pathology**  
+
+- Reviewed polyQ disease mechanisms, focusing on SCA1 and Ataxin-1 in neurodegeneration.  
+- Screened 169 compounds via Western Blot to identify modulators of ubiquitination that degrade mutant Ataxin1.  
+- Validated dose/time dependencies; built a nonlinear mixed-effects model in R for dose-response and time effects.  
+- Used qPCR and ubiquitination assays to show the compound increases ubiquitination levels.  
+- Designed in-vitro efficacy tests in patient-derived fibroblasts and fetal mouse Purkinje cells; complemented with mouse behavioral assessments.  
+- Analyzed effects with one-way ANOVA + Dunnett’s post hoc; visualized results.
+
+<br>
+
+## Technical Skills
+
+- **Programming/Tools:** R, Python, SPSS, Minitab, ImageJ, SnapGene  
+- **Lab:** Cell Culture, Transfection, Staining, Western Blot, Electrophoresis  
+- **Imaging & Assays:** Immunofluorescence, BCA, qPCR, Co-IP, High-Content Analysis
+
+<br>
+
+## Extracurricular
+
+- Member — Fudan University Volunteer Association *(Sept 2022 – Present)*  
+- Member — Fudan University Archery Club *(Sept 2022 – June 2023)*  
+- Outstanding Member — Fudan University Xide College Student Council *(Sept 2021 – June 2022)*
+
+---
+

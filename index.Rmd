@@ -1,24 +1,21 @@
 ---
-title: "Arwen's website"
+title: "Ruihan(Arwen) Ding"
 output: 
   html_document:
-    toc: true
-    toc_float: true
+    toc: TRUE
+    toc_float: TRUE
 ---
 
-# This is Arwen's website
+<br>
+![](me.jpg)
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+<br>
 
-Do all the stuff I usually do
+# About Me
 
-Like adding text
+I'm a MS Biostatistics student at Columbia University Mailman School of Public Health.
 
-Example from [P8105](https://p8105.com/making_websites.html). We are making websites today! Learn more about this site [here](about.html).
-
-I also use [google](https://www.google.com/) a ton for data science.
-
-To show you can just use RMD like normal, check out this [plots page](plots.html).
+To know more about my experience, go to [CV](cv.html).
 
 
 

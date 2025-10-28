@@ -11,7 +11,7 @@
 
 
 
-<title>Some plots</title>
+<title>Ruihan Ding</title>
 
 <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -35,6 +35,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet" />
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
 <link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 
@@ -350,28 +352,143 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Some plots</h1>
+<h1 class="title toc-ignore">Ruihan Ding</h1>
 
 </div>
 
 
-<p>We often make plots in data science.</p>
-<p>Here’s the tidyverse.</p>
-<pre class="r"><code>library(tidyverse)</code></pre>
-<p>Here’s a dataframe.</p>
-<pre class="r"><code>plot_df = 
-  tibble(
-    x = rnorm(100, mean = 1, sd = 2), 
-    y = 1 + 2*x + rnorm(100)
-  )</code></pre>
-<p>Here’s a plot. This seems to show</p>
-<p><span class="math display">\[y_i = \beta_0 + \beta_1 x_i +
-\epsilon_i\]</span> (This is LaTex stuff, not required)</p>
-<pre class="r"><code>plot_df |&gt; 
-  ggplot(aes(x = x, y = y)) +
-  geom_point()</code></pre>
-<p><img src="plots_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<p>Go back to the <a href="index.html">homepage</a>.</p>
+<p><br></p>
+<div id="education" class="section level2">
+<h2>Education</h2>
+<ul>
+<li><p><strong>Columbia University, Mailman School of Public
+Health</strong> — M.S. Biostatistics<br />
+<em>Sept 2025 – Present · New York, NY, USA</em></p></li>
+<li><p><strong>Fudan University</strong> — B.S. in Biological
+Sciences<br />
+<em>Sept 2021 – June 2025 · Shanghai, China</em></p></li>
+<li><p><strong>UC Berkeley Extension</strong> — Berkeley Biosciences
+Study Abroad (BBSA)<br />
+<em>Jan 2023 – Aug 2023 · Berkeley, CA, USA</em></p></li>
+</ul>
+<p><strong>Awards &amp; Scholarships:</strong><br />
+Fundamental Disciplines Scholarship (2023–2024);<br />
+Fudan Undergraduate Research Opportunities Program Scholarship (Spring
+2024)</p>
+<p><br></p>
+</div>
+<div id="work-experience" class="section level2">
+<h2>Work Experience</h2>
+<p><strong>Data Analyst Intern — Dizal Pharma · Shanghai, China</strong>
+<em>(July 2024 – Aug 2024)</em></p>
+<ul>
+<li>Conducted statistical analyses for CMC and quality management in
+line with industry regulations.<br />
+</li>
+<li>Developed a DOE framework for process control (formulation
+optimization, stability, expiry assessment).<br />
+</li>
+<li>Computed Cpk/Ppk in Minitab on stability data; implemented SPC
+control charts to assess capability and stability.<br />
+</li>
+<li>Performed literature reviews that improved acceptance sampling
+methodologies and QA practices.</li>
+</ul>
+<p><br></p>
+</div>
+<div id="research-experience" class="section level2">
+<h2>Research Experience</h2>
+<p><strong>Research Assistant — Fudan University</strong> <em>(Oct 2023
+– June 2025 · Advisor: Prof. Boxun Lu)</em></p>
+<ul>
+<li>Explored molecular mechanisms/therapeutics for polyQ and polyG
+neurodegenerative diseases.<br />
+</li>
+<li>Quantified proteins via BCA; profiled expression via Western Blot
+and ImageJ; performed fluorescence microscopy.<br />
+</li>
+<li>Investigated protein distribution/colocalization with
+immunofluorescence.<br />
+</li>
+<li>Measured mRNA levels via RT-qPCR; validated via DNA
+electrophoresis.<br />
+</li>
+<li>Analyzed high-throughput screening data in R.<br />
+</li>
+<li>Led an independent project on SCA1 mechanism and potential
+therapies.</li>
+</ul>
+<p><strong>Research Assistant — University of California,
+Berkeley</strong> <em>(June 2023 – Aug 2023 · Advisor: Prof. Sheng
+Luan)</em></p>
+<ul>
+<li>Studied Arabidopsis signaling: effects of K nutrition on TORC and
+the CBL-CIPK network.<br />
+</li>
+<li>Prepared sterile media; cultivated seedlings to ensure experimental
+consistency.<br />
+</li>
+<li>Applied qPCR to assess gene expression under varying K levels.<br />
+</li>
+<li>Analyzed growth outcomes with one-way ANOVA and Tukey tests for
+height/biomass differences.</li>
+</ul>
+<p><br></p>
+</div>
+<div id="selected-project" class="section level2">
+<h2>Selected Project</h2>
+<p><strong>Screening &amp; Validation of Compounds Modulating
+Ubiquitination to Rescue SCA1 Pathology</strong></p>
+<ul>
+<li>Reviewed polyQ disease mechanisms, focusing on SCA1 and Ataxin-1 in
+neurodegeneration.<br />
+</li>
+<li>Screened 169 compounds via Western Blot to identify modulators of
+ubiquitination that degrade mutant Ataxin1.<br />
+</li>
+<li>Validated dose/time dependencies; built a nonlinear mixed-effects
+model in R for dose-response and time effects.<br />
+</li>
+<li>Used qPCR and ubiquitination assays to show the compound increases
+ubiquitination levels.<br />
+</li>
+<li>Designed in-vitro efficacy tests in patient-derived fibroblasts and
+fetal mouse Purkinje cells; complemented with mouse behavioral
+assessments.<br />
+</li>
+<li>Analyzed effects with one-way ANOVA + Dunnett’s post hoc; visualized
+results.</li>
+</ul>
+<p><br></p>
+</div>
+<div id="technical-skills" class="section level2">
+<h2>Technical Skills</h2>
+<ul>
+<li><strong>Programming/Tools:</strong> R, Python, SPSS, Minitab,
+ImageJ, SnapGene<br />
+</li>
+<li><strong>Lab:</strong> Cell Culture, Transfection, Staining, Western
+Blot, Electrophoresis<br />
+</li>
+<li><strong>Imaging &amp; Assays:</strong> Immunofluorescence, BCA,
+qPCR, Co-IP, High-Content Analysis</li>
+</ul>
+<p><br></p>
+</div>
+<div id="extracurricular" class="section level2">
+<h2>Extracurricular</h2>
+<ul>
+<li>Member — Fudan University Volunteer Association <em>(Sept 2022 –
+Present)</em><br />
+</li>
+<li>Member — Fudan University Archery Club <em>(Sept 2022 – June
+2023)</em><br />
+</li>
+<li>Outstanding Member — Fudan University Xide College Student Council
+<em>(Sept 2021 – June 2022)</em></li>
+</ul>
+<hr />
+</div>
 
 
 
