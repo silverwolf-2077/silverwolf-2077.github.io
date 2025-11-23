@@ -1,0 +1,57 @@
+---
+title: "Cohort Analysis of Mental Health, Smoking and Type 2 Diabetes Risk: A Cox Survival Study"
+
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: simplex
+---
+
+### **Type II Diabetes**
+
+Type 2 diabetes (T2D) is a major global public health problem and accounts for approximately 90%–95% of all diabetes cases among the more than 38 million affected individuals in the United States. As a chronic condition, T2D is associated with substantial morbidity and an average reduction in life expectancy of around ten years. (CDC, 2024)
+
+![](image/type_2_diabetes.png){width=40%}
+
+### **National Prevalence**
+
+Upon data analysis, we condensed the cholesterol risk across different locations in the United States from the **PLACES: Local Data for Better Health** dataset ([sources, part 1](source.html)), identifying key behavioral factors predominantly associated with the risk through correlation analysis.
+
+Read [Prevalence EDA](eda.html) here.
+
+### **Cholesterol-Associated Factors**
+
+After utilizing **NHANCES** dataset ([sources, part 2](source.html)), we made a in-depth [Exploratory Analysis](Exploratory-Analysis.html), and at last we pinpointed the primary influencers of cholesterol and constructed the final [Build Model](model.html) for predicting individual cholesterol levels.
+
+![](images/Risk Factors.jpg){width=60%}
+
+
+### **Check Your Cholesterol Level!**
+
+Just enter some simple information to get your current cholesterol levels.
+
+Click ["Predict Your Risk"](https://ruiqixue.shinyapps.io/shiny/) to take the test!
+
+### **Report**
+
+Explore our [Report](report.html) to discover the pivotal insights derived from our analysis!
+
+### **Lovely Creators**
+
+* Shihui Peng (sp4170)
+* Jingyu Wang (jw4348)
+* Yuxuan Wang (yw3995)
+* Ruiqi Xue (rx2236)
+* Jiangyuan Zhu (jz3573)
+
+Click [here](About-Us.html) to learn more about us.
+
+The link to the repository of this project can be found [here](https://github.com/Pengshihui99/cholesterol.github.io).
+
+### **Screencast**
+
+Click on the video below to explore the capabilities of this site and enjoy a summary of our key highlights.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wWU8n4jqFxM?si=9YVNW8XpmNF9FGJ3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+"

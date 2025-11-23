@@ -5,6 +5,8 @@ navbar:
   right:
     - text: "CV"
       href: cv.html
+    - text: "test"
+      href: test.html
     - text: "dashboard"
       href: flexdashboard.html
     - icon: fa-envelope fa-lg
